@@ -19,7 +19,6 @@ php artisan serve
   2 - url: "http://localhost:8000/oauth/token"
   
   3 - preencher no "Body/x-www-form-urlencoded":
-  
   [
   {"key":"client_id",     "value":"2","description":""},
   {"key":"client_secret", "value":"9d3Q7lDi4rkIi58fnQTElsH71ojaAmczDm41zCSu"},
@@ -30,7 +29,6 @@ php artisan serve
   ]
   
   4 - preencher no Headers:
-  
   [
   {"key":"Content-Type",    "value":"application/x-www-form-urlencoded"},
   {"key":"Accept",          "value":"application/json"}
@@ -41,7 +39,6 @@ php artisan serve
   6 - fazer requisição na url: "http://localhost:8000/api/tasks"
   
   7 - preencher Headers:
-  
   [
   {"key":"Content-Type",    "value":"application/json"},
   {"key":"Accept",          "value":"application/json"},
